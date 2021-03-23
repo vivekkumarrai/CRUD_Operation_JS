@@ -1,0 +1,171 @@
+body
+{
+  overflow-x: hidden;
+}
+.heading{
+  color: rgb(177, 140, 92);
+  margin-left: 100px;
+}
+
+
+ .container{
+    margin-top: 50px;
+    border: 2px solid;
+     border-radius: 20px;
+     border: 2px solid rgb(110, 107, 107);
+    
+} *
+img{
+  height: 50px;
+  margin-top: -60px;
+  margin-left: 535px;
+}
+h5{
+  margin-left: 510px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+body>table{
+    width: 100%;
+    overflow-x: hidden;
+}
+ .tablecontain{
+  margin-top: 50px;
+  margin-left: -450px;
+  display: flex;
+  /* border: 5px solid; */
+  
+  
+} 
+/* body{
+  background-color: rgb(159, 160, 160);
+} */
+.formFill{
+  /* background-image: url("image1.jpg"); */
+margin-left: 500px;
+
+}
+ .tablediv{
+/* background-color: rgb(165, 115, 115); */
+margin-top: 40px;
+margin-left: 430px;
+
+/* table-layout: 2px; */
+border: 2px solid rgb(143, 139, 139);
+border-radius: 20px;
+box-shadow: rosybrown;
+margin-bottom: 36px;
+} 
+.tableView{
+  margin-top: 50px;
+
+  /* padding-left: -550px; */
+
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 80%;
+    margin-left: 80px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+/* tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+} */
+.header{
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.image{
+   padding-top: 200px;
+}
+.form{
+    padding: 30px 40px;
+}
+.form-control{
+    margin-bottom: 30px;
+    border: none;
+}
+.formflex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/* div input{
+    /* border-radius: 5px; */
+
+.login{
+    display: flex;
+}
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+/* .emailclass{
+  height: 60px;
+  margin-bottom: 50px;
+} */
+.btn1{
+  margin-left: 10px;
+  background-color: rgb(177, 140, 92);
+  width: 185px;
+} 
+.btn2{
+  margin-left: 770px;
+  background-color: rgb(177, 140, 92);
+  width: 185px;
+} 
+
+
+/* Navbar start here  */
+
+.nav-link {
+  color: #fff !important;
+  padding-left: 50px;
+}
+.nav-item{
+  margin-left: 40px;
+}
+.searchbox{
+  width: 400px;
+  height: 50px;
+}
+
+@media screen and  (max-width:768px){
+  .image{
+    padding-top: 300px;
+    padding-left: 60px;
+ }
+ .imgpar{
+   font-size: 10px;
+   padding-left: 70px;
+ }
+ .heading3{
+font-size: 20px;
+ }
+ .emailpar{
+   display: none;
+ }
+ .togglepass{
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn1{
+  margin-right: 50px; 
+}
+}
+
+@media screen and  (max-width:1024px){
+.tablediv{
+  /* background-color: rgb(165, 115, 115); */
+  margin-top: 40px;
+  margin-left: 440px;
+}
+}
